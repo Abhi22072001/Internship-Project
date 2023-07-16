@@ -1,0 +1,45 @@
+.Applicants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/login1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #0056b3;
+}

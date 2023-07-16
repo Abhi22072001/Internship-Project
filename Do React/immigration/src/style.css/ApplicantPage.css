@@ -1,0 +1,45 @@
+/*.applicants-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/login1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.applicants-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #997575;
+}*/
+
+
+  /*.ApplicantPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }*/
+
+  .applicants-page {
+    background-image: url('../images/login1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .applicants-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .applicants-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  
